@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <!-- <form action="#">
+        <h1>Event Registration</h1>
+        <label for="name1">Name: </label><br>
+        <input type="text" name="name1" id="name1" placeholder="Enter your name">
+
+        <br><br>
+
+        <label for="email1">Email: </label><br>
+        <input type="email" name="email1" id="email1" placeholder="Enter your email">
+
+        <br><br>
+
+        <label for="phone1">Phone: </label><br>
+        <input type="tel" name="phone1" id="phone1" placeholder="Enter your phone number">
+
+        <br><br>
+
+        <label for="occup">Occupation</label><br>
+        <select name="occup" id="occup">
+            <option value="student">Student</option>
+            <option value="profectional">Profectional</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Topic of Interest</legend>
+            <input type="checkbox" name="check" id="check1">
+            <label for="check1">HTML</label><br>
+            <input type="checkbox" name="check" id="check2">
+            <label for="check2">CSS</label><br>
+            <input type="checkbox" name="check" id="check3">
+            <label for="check3">JavaScript</label>
+        </fieldset>
+        
+
+        <br><br>
+
+        <label for="comment">Comment: </label><br>
+        <textarea name="comment" id="comment" cols="30" rows="4" placeholder="Enter your comment"></textarea>
+
+        <button>Register</button>
+    </form> -->
+    <!-- <label for="check">Topic of Interest</label><br>
+        <input type="checkbox" name="check" id="check1">
+        <label for="check1">HTML</label><br>
+        <input type="checkbox" name="check" id="check2">
+        <label for="check2">CSS</label><br>
+        <input type="checkbox" name="check" id="check3">
+        <label for="check3">JavaScript</label> -->
+
+    <!-- <form>
+        <h1>Job Application</h1>
+        <label for="name1">Name: </label><br>
+        <input type="text" name="name1" id="name1" placeholder="Enter your name">
+
+        <br><br>
+
+        <label for="email1">Email: </label><br>
+        <input type="email" name="email1" id="email1" placeholder="Enter your email">
+
+        <br><br>
+
+        <label for="phone1">Phone: </label><br>
+        <input type="tel" name="phone1" id="phone1" placeholder="Enter your phone number">
+
+        <br><br>
+
+        <label for="resume">Resume: </label><br>
+        <input type="file" name="Resume" id="resume">
+
+        <br><br>
+
+        <label for="exp">Experiace years: </label>
+        <input type="number" name="exp" id="exp" min="0" max="50">
+        
+        <br><br>
+
+        <fieldset>
+            <legend>Skills: </legend>
+            <input type="checkbox" name="skill" id="skill1">
+            <label for="skill1">HTML</label><br>
+            <input type="checkbox" name="skill" id="skill2">
+            <label for="skill2">CSS</label><br>
+            <input type="checkbox" name="skill" id="skill3">
+            <label for="skill3">JavaScript</label>
+        </fieldset>
+
+        <br><br>
+
+        <label for="edu">Higher Education: </label><br>
+        <select name="edu" id="edu">
+            <option value="bachelor">Bachelor</option>
+            <option value="master">Master</option>
+            <option value="phd">PhD</option>
+        </select>
+
+        <br><br>
+        
+        <label for="avail">Availability: </label><br>
+        <input type="radio" name="avail" id="avail1">
+        <label for="avail1">Full Time</label><br>
+        <input type="radio" name="avail" id="avail2">
+        <label for="avail2">Part Time</label>
+        
+        <br><br>
+
+        <label for="comment">Additional Comment: </label><br>
+        <textarea name="comment" id="comment" cols="20" rows="3"></textarea>
+
+        <input type="button" value="Submit Application" name="submit" id="submit">
+    </form> -->
+
+    <form action="#">
+        <h2>Complex Form</h2>
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <label for="phone">phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <label for="country">Counttry: </label>
+            <select name="country" id="country">
+                <option disabled selected value="">Select an option</option>                  
+                <option value="India">India</option>
+                <option value="Russia">Russia</option>
+                <option value="usa">USA</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <label for="address">Address Street </label>
+                <input type="text" name="Street" id="Street" placeholder="Enter your street">
+                <label for="city">City </label>
+                <input type="text" name="city" id="city" placeholder="Enter your city">
+                <label for="state">State </label>
+                <input type="text" name="state" id="state" placeholder="Enter your state">
+                <label for="zip">Zip Code</label>
+                <input type="text" name="zip" id="zip" placeholder="Enter your zip">
+            </legend>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comment">Comment</label>
+            <textarea name="comment" id="comment" cols="30" rows="4" placeholder="Enter your comment"></textarea>
+            <label for="check">I agree to the terms of service</label>
+            <input type="checkbox" name="check" id="check">
+        </fieldset>
+        <input type="submit" name="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
