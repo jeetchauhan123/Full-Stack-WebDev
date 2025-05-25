@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        :root{
+            --primary-color: brown;
+            --custom-width: 200px;
+        }
+        .con{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: aquamarine;
+            height: 330px;
+            width: 330px;
+            border: 1px solid brown;
+            margin: 5px;
+            padding: 5px;
+
+            /* property:  <x-axis> <yaxis> <color>*/
+            /* positive x axis value to right side */
+            /* positive y axis value to bottom side */
+            /* box-shadow: 10px 20px brown; */
+            
+            /* negative value to opposite side */
+            /* box-shadow: -20px -15px royalblue; */
+
+            /* property:  <x-axis> <yaxis> <blur> <color>*/
+            /* box-shadow: 20px 15px 150px brown; */
+
+            /* property:  <x-axis> <yaxis> <blur> <spread-radius> <color>*/
+            /* box-shadow:  20px 15px 5px 10px brown; */
+
+            /* shadow inside the element */
+            /* box-shadow: inset 20px 15px 35px blueviolet; */
+
+            /* multiple shadow */
+            box-shadow: 100px 100px 50px royalblue, -100px -100px 50px teal, 50px -50px 50px orangered, -50px 50px 50px yellowgreen;
+
+
+        }
+
+        /* text shadow */
+        #head1{
+            /* simple text shawos */
+            /* text-shadow: 0px 0px 10px #fc0; */
+
+            /* another way to write */
+            /* text-shadow: #fc0 0px 0px 20px; */
+
+
+            /* multiple shadow */
+            text-shadow: 1px 1px 2px red, 0 0 5px blue, 0 0 20px blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box">
+            <img src="img/img_avatar.png" alt="img1" height="100px" width="100"/>
+
+            <h2 id="head1">hello, welcome to code</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi quasi, ea fuga molestiae ipsa itaque dignissimos dolore minus cum pariatur aut officia similique nemo, distinctio quibusdam impedit explicabo libero tenetur totam id eum ab, eius minima? Reiciendis, ipsum. Cumque consequuntur hic debitis voluptates nisi voluptate nulla doloribus esse tenetur dolorum!</p>
+        </div>
+    </div>
+</body>
+</html>

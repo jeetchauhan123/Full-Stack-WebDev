@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box1{
+            height: 300px;
+            width: 300px;
+            background-color: beige;
+            border: 2px solid black;
+
+            /* transition-property: width,background-color;
+            transition-duration: 1s;
+            transition-delay: 0s;
+            transition-timing-function: linear; */
+
+            /* transition: width 2s ease, background-color 5s ease-in-out, color 4s ease-in; */
+
+            transition: all 2s ease;
+        }
+
+        .box1:hover{
+            width: 500px;
+            background-color: blueviolet;
+            font-size: 25px;
+            color: aliceblue;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ducimus modi placeat quis rerum fugit mollitia similique, corrupti officiis quibusdam, tempora minima repellat, dolor odio asperiores nesciunt alias ut odit!
+        </div>
+    </div>
+</body>
+</html>

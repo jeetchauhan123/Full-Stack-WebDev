@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <!-- <style>
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            border: 20px solid black;
+        }
+
+        @media (max-width: 500px){
+            .box{
+                background-color: royalblue;
+                /* background-color: green; */
+            }
+        }
+
+        @media (min-width: 500px){
+            .box{
+                background-color: aquamarine;
+            }
+        }
+
+        @media (min-width: 500px) and (max-width: 700px){
+            .box{
+                background-color: greenyellow;
+            }
+        }
+
+    </style> -->
+
+    <!-- <style>
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            height: 800px;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            border: 2px solid brown;
+            margin: 5px;
+            /* padding: 10px; */
+        }
+        #box1{
+            background-color: aqua;
+        }
+        #box2{
+            background-color: blue;
+        }
+        #box3{
+            background-color: orange;
+        }
+        #box4{
+            background-color: brown;
+        }
+
+        @media (min-width: 600px){
+            .container{
+                flex-direction: row;
+            }
+        }
+        @media (max-width: 600px){
+            .container{
+                flex-direction: column;
+            }
+            
+        }
+        .box{
+            
+        }
+    </style> -->
+
+    <style>
+        .box{
+            height: 50px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 5px;
+            background-color: aqua;
+        }
+        #con{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: beige;
+        }
+        #con1{
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #con2{
+            align-content: center;
+        }
+        @media (max-width: 600px){
+            #con{
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        welcome to media query
+    </div>
+
+    <!-- <div class="container">
+        <div class="box" id="box1">Box 1</div>
+        <div class="box" id="box2">Box 2</div>
+        <div class="box" id="box3">Box 3</div>
+        <div class="box" id="box4">Box 4</div>
+    </div> -->
+    <div id="con">
+
+        <div id="con1">
+            <div class="box">TEXT</div>
+            <div class="box">TEXT</div>
+        </div>
+
+        <div id="con2">
+            <img src="img/img_avatar.png" alt="img" height="200px" width="200px"/>
+        </div>
+
+    </div>
+
+</body>
+</html>

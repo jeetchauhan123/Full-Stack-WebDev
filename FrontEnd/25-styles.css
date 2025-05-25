@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border: 2px solid black;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1s ease;
+    
+}
+.box:hover{
+    /* rotate is used to just rotate the element */
+    /* transform: rotate(90deg); */
+    /* transform: rotate(360deg); */
+    transform: rotate(-90deg);
+
+    /* scale is used increase or decrease the size of element */
+    /* increase */
+    /* transform: scale(-1); */
+    /* decrease */
+    /* transform: scale(0.5); */
+    /* transform: scalex(1.5); */
+    /* transform: scaley(1.5); */
+
+    /* skew is used to tild the element */
+    /* tilt in ather direction */
+    transform: skew(20deg);
+    /* transform: skew(45deg,-45deg); */
+    /* transform: skewY(45deg); */
+    /* transform: skewX(-45deg); */
+    
+
+    /* translate moves the element in different directions */
+    /* moves right side */
+    /* transform: translate(100px); */
+    /* moves left side */
+    /* transform: translate(-100px); */
+    /* moves down side */
+    /* transform: translate(0px,100px); */
+    /* moves up side */
+    /* transform: translate(0px,-100px); */
+    /* moves diagonically */
+    /* transform: translate(0px, 100px); */
+
+
+    /* transform: matrix(1, -0.3, 0, 1, 0, 0) rotate(25deg); */
+
+}
+.con{
+    height: 100vh;
+    width: 100vw;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 36px;
+}

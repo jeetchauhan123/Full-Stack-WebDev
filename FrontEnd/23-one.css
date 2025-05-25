@@ -1,0 +1,150 @@
+
+.box{
+    /* animation function name */
+    /* animation-name: anime; */
+
+    /* time for duration to perform */
+    /* animation-duration: 1.5s; */
+
+    /* to delay the animation */
+    /* animation-delay: 1s; */
+    
+    /* number of times animation perform */
+    /* animation-iteration-count: infinite; */
+
+    /* animation-direction: normal; */
+
+    /* slow start, fast middle, slow end */
+    /* animation-timing-function: ease; */
+
+    /* same start, same middle, same end */
+    /* animation-timing-function: linear; */
+
+    /* slow start to fast end */
+    /* animation-timing-function: ease-in; */
+
+    /* fast start to slow end */
+    /* animation-timing-function: ease-out; */
+
+    /* slow start, midium middle, slow end */
+    /* animation-timing-function: ease-in-out; */
+
+    /* custom speed */
+    /* animation-timing-function: cubic-bezier(0, 0.86, 1, 0.21); */
+
+    /* animation-fill-mode: both; */
+
+    /* animation-play-state: paused; */
+
+    /* shorthand notation */
+
+    animation: anime 4s ease-in-out infinite;
+
+}
+
+@keyframes anime {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+
+    50%{
+        top: 0px;
+        left: 1000px;
+        /* rotate: 90deg; */
+        transform: rotate(90deg);
+        background-color: red;
+    }
+
+    /* 70%{
+        top: 0px;
+        left: 1000px;
+        rotate: 90deg;
+        transform: rotate(90deg);
+    } */
+    100%{
+        top: 0px;
+        left: 0px;
+        transform: rotate(180deg);
+    }
+
+    /* 0% {
+        transform: rotate(0deg);
+        left: 0px;
+    } 
+    25% {
+        transform: rotate(20deg);
+        left: 0px;
+    }
+    50% {
+        transform: rotate(90deg);
+        left: 1000px;
+    }
+    55% {
+        transform: rotate(0deg);
+        left: 1000px;
+    }
+     70% {
+        transform: rotate(90deg);
+        left: 1000px;
+        background: #1ec7e6;
+    }
+    100% {
+        transform: rotate(360deg);
+        left: 0px;
+    } */
+    
+}
+
+.box2{
+    animation: anime2 2s ease infinite alternate;
+}
+
+@keyframes anime2 {
+    from{
+        top: 300px;
+        left: 1000px;
+    }
+    to{
+        top: 300px;
+        left: 0px;
+    }
+}
+
+.circle{
+    animation: anime3 4s linear infinite;
+    animation-timing-function: cubic-bezier(1, 0, 0.8, 1);;
+}
+
+@keyframes anime3 {
+    0%{
+        top: 0px;
+        left: 0px;
+        rotate: 20deg;
+    }
+    25%{
+        top: 0px;
+        left: 1000px;
+        rotate: 60deg;
+    }
+    50%{
+        top: 380px;
+        left: 1000px;
+    }
+    75%{
+        top: 380px;
+        left: 0px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+    /* from{
+        top: 0px;
+        left: 300px;
+    }
+    to{
+        top: 380px;
+        left: 300px;
+    } */
+}

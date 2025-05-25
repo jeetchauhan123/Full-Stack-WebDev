@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sizeing units</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        /* .box{
+            border: solid 2px red;
+        } */
+
+        .parent{
+            border: solid 2px red;
+            background-color: beige;
+            width: 200%;
+        }
+        .child{
+            border: solid 2px blue;
+            background-color: aqua;
+            width: 20%;
+        }
+
+        /* .container{
+            border: solid 20px green;
+            background-color: beige;
+            height: 200vh;
+            box-sizing: border-box;
+
+        } */
+
+        .box1{
+            border: solid 2px black;
+            font-size: 50px;
+
+        }
+
+        .container{
+            font-size: 10px;
+        }
+
+        .box{
+            font-size: 10em;
+        }
+
+        .para{
+            border: solid 2px black;
+            font-size: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        hello, welcome to my code
+    </div>
+
+    <div class="parent">
+        <div class="child">
+            child
+        </div>
+    </div>
+
+    <div class="container">
+        hello, welcome to my code
+    </div>
+
+    <div class="box1">
+        hello, welcome to my code
+    </div>
+
+    <div class="container">
+        <div class="box">
+            welcome to my code
+        </div>
+    </div>
+    <p class="para">hello, me</p>
+</body>
+</html>
