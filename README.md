@@ -6,7 +6,7 @@ This Folder contains HTML5, CSS3, JS code I started learning from tutorials.
 # React
 This folder constin all React files that i am learning in the learning series
 
-# backend
+# Backend
 This Folder contains the code related to the NodeJS and Express
 
 To check the details and keep up to date connect with me on linkedin -
