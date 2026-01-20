@@ -22,11 +22,6 @@ This folder contains all frontend-related learning and projects, including:
 ### 🔹 React
 This folder contains React-related learning files and projects as I progress through the React learning series.
 
-### 🔹 Backend
-This folder contains backend code related to:
-- Node.js
-- Express.js  
-(Will be expanded as I move deeper into backend and databases.)
 
 ---
 
@@ -127,7 +122,6 @@ This folder contains backend code related to:
 - CSS3
 - JavaScript (ES6+)
 - React (Learning Phase)
-- Node.js & Express (Learning Phase)
 - Git & GitHub
 
 ---
